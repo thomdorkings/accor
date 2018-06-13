@@ -1,0 +1,77 @@
+<html>
+   <head>
+      <title>Clippings - Accor Luxury</title>
+      <style>
+         * { margin: 0; padding: 0; }
+         body>section { width: 100%; max-width: 1440px; margin: auto; }
+         body>section>div { display: none; outline: none; }
+         body>section>div:target { display: block; }
+         body>section>div>img { display:block; width:100%; }
+         body>section>div>a { display:block; width:50%; height:100%; position:absolute; top:0; left:0; z-index: 1; }
+         body>section>div>a.next { left: 50%; }
+      </style>
+   </head>
+   <body>
+      <section>
+         
+         <div id="one">
+            <a class="next" href="#two"></a>
+            <img src="one.jpg">
+         </div>
+         
+         <div id="two">
+            <a href="#one"></a>
+            <a class="next" href="#three"></a>
+            <img src="two.jpg">
+         </div>
+         
+         <div id="three">
+            <a href="#two"></a>
+            <a class="next" href="#four"></a>
+            <img src="three.jpg">
+         </div>
+         
+         <div id="four">
+            <a href="#three"></a>
+            <a class="next" href="#five"></a>
+            <img src="four.jpg">
+         </div>
+         
+         <div id="five">
+            <a href="#four"></a>
+            <a class="next" href="#six"></a>
+            <img src="five.jpg">
+         </div>
+         
+         <div id="six">
+            <a href="#five"></a>
+            <a class="next" href="#seven"></a>
+            <img src="six.jpg">
+         </div>
+         
+         <div id="seven">
+            <a href="#six"></a>
+            <a class="next" href="#eight"></a>
+            <img src="seven.jpg">
+         </div>
+         
+         <div id="eight">
+            <a href="#seven"></a>
+            <a class="next" href="#nine"></a>
+            <img src="eight.jpg">
+         </div>
+         
+         <div id="nine">
+            <a href="#eight"></a>
+            <a class="next" href="#ten"></a>
+            <img src="nine.jpg">
+         </div>
+         
+         <div id="ten">
+            <a href="#nine"></a>
+            <img src="ten.jpg">
+         </div>
+         
+      </section>
+   </body>
+</html>
